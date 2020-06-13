@@ -2,3 +2,6 @@
 Criando uma imagem baseado no centos7 com o java, maven e node.
 
 Esta imagem pode servir para compilar projetos java web e transpilar os js, utilizar o gulp ou qualquer projeto que tenha java + maven e npm.
+
+- Link para a imagem no hub:
+ -https://hub.docker.com/repository/docker/davidmsantos/centos7-maven-npm
