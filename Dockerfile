@@ -26,3 +26,8 @@ RUN yum install -y nodejs
 
 RUN node -v
 RUN npm -v
+
+# instalando perl e wget
+RUN yum -y update && \
+    yum -y install git perl wget which && \
+    yum clean all
